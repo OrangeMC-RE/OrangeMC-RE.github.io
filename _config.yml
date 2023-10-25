@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Where the orange achieves
 
 #theme: cayman
-remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: andreondra/jekyll-theme-simplex
 plugins:
   - jekyll-feed
 
