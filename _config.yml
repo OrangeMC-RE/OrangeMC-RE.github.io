@@ -8,11 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-<<<<<<< HEAD
 # If you need help with YAML syntax, here are some quick references for you:
-=======
-# If you need help with YAML syntax, here are some quick references for you: 
->>>>>>> cddf2e9acd5b35278eaa5bd356b65d3f091e5b22
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -22,46 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-<<<<<<< HEAD
-title: OrangeMC
-email: astroangelfish@orangemc.moe
-description: >- # this means to ignore newlines until "baseurl:"
-  How the OrangeMC tries to achieve what it wants?
-=======
-title: RE: Minecraft of Orange
+title: "RE: Minecraft of Orange"
 email: astroangelfish@orangemc.moe
 description: >- # this means to ignore newlines until "baseurl:"
   Where the orange plants.
   Where the orange grows.
   Where the orange tries.
   Where the orange achieves
->>>>>>> cddf2e9acd5b35278eaa5bd356b65d3f091e5b22
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: orangemc
-github_username:  OrangeMC-RE
 
-# Build settings
-remote_theme: page-themes/cayman@v0.2.0
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
