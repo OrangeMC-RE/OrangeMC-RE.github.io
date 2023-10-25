@@ -5,7 +5,7 @@ title: "wget只能有一个参数? 给你rce了"
 
 *题目源自于2023年的n1ctf, 名为downloader*
 
-~~~老鱼我没爆零~~~
+~~老鱼我没爆零~~
 
 ## 步骤
 从题目可以看出, 程序使用了wget下载文件, 但是并不会给予任何回显
@@ -19,9 +19,13 @@ title: "wget只能有一个参数? 给你rce了"
 初步计划写入`/etc/cron.d`以达到rce目的, 但是execlp仅接收1个参数作为函数参数, 其man内容如下
 
 >    l - execl(), execlp(), execle()
+
 >       The const char *arg and subsequent ellipses can be thought of as arg0, arg1, ..., argn.  Together they describe a list of  one  or  more  pointers  to  null-terminated
+
 >       strings  that  represent the argument list available to the executed program.  The first argument, by convention, should point to the filename associated with the file
+
 >       being executed.  The list of arguments must be terminated by a null pointer, and, since these are variadic functions, this pointer must be cast (char *) NULL.
+
 >       By contrast with the 'l' functions, the 'v' functions (below) specify the command-line arguments of the executed program as a vector.
 
 但参数于第四个直接被截断, 于是理解为只能给wget传入一个参数, 可构成ssrf (但事后证明好像没啥用233)
@@ -48,7 +52,9 @@ use_askpass=/readflag
 ```
 
   亡
+
   口
+
 月贝凡
 
 ## 利用代码
