@@ -8,7 +8,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
+<<<<<<< HEAD
 # If you need help with YAML syntax, here are some quick references for you:
+=======
+# If you need help with YAML syntax, here are some quick references for you: 
+>>>>>>> cddf2e9acd5b35278eaa5bd356b65d3f091e5b22
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,10 +22,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+<<<<<<< HEAD
 title: OrangeMC
 email: astroangelfish@orangemc.moe
 description: >- # this means to ignore newlines until "baseurl:"
   How the OrangeMC tries to achieve what it wants?
+=======
+title: RE: Minecraft of Orange
+email: astroangelfish@orangemc.moe
+description: >- # this means to ignore newlines until "baseurl:"
+  Where the orange plants.
+  Where the orange grows.
+  Where the orange tries.
+  Where the orange achieves
+>>>>>>> cddf2e9acd5b35278eaa5bd356b65d3f091e5b22
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: orangemc
