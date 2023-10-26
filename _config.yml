@@ -26,8 +26,24 @@ description: >- # this means to ignore newlines until "baseurl:"
   Where the orange tries.
   Where the orange achieves
 
-#theme: cayman
 remote_theme: andreondra/jekyll-theme-simplex
 plugins:
   - jekyll-feed
+  
+logo_img: /assets/img/icons/orangemc_logo.png
+copyright: © OrangeMC 2023
+
+conlletions:
+  category:
+    output: true
+  authors:
+    output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
 
